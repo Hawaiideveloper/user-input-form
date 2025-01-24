@@ -14,6 +14,7 @@ the URI for the mongoDB is extremely important and can be set to cloud or on-pre
 
 # project hierarchy represented in ASCII format
 
+```
 For-Userdata-input
 ├── .git
 ├── README.md
@@ -29,7 +30,7 @@ For-Userdata-input
     ├── package-lock.json
     ├── package.json
     ├── server.js
-
+```
 
 
 Directory Context: The docker-compose tool runs in the context of the directory where the file is located. Placing it at the root ensures all services (mongoDB and web-form-app) can be accessed and managed together.
