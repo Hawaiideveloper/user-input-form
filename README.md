@@ -38,19 +38,19 @@ Directory Context: The docker-compose tool runs in the context of the directory 
 ###### Start the Application
 
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
   
 ###### Stop the Application
 
 ```bash
-docker-compose down --columes
+docker compose down --columes
 ```
 ##### Rebuild Specific Service: If you only changed something in web-form-app:
   
 ```bash
-docker-compose build web-form-app
-docker-compose up
+docker compose build web-form-app
+docker compose up
 ```
 
 
