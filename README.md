@@ -41,6 +41,17 @@ Directory Context: The docker-compose tool runs in the context of the directory 
 docker compose up --build
 ```
   
+
+# To stop the application use the combination of keys below
+
+Ctrl+C
+
+
+
+
+
+
+
 ###### Stop the Application
 
 ```bash
